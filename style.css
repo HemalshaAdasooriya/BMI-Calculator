@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+    .p-md-5 {
+        padding: 3rem !important;
+    }
+}
+@media (min-width: 768px) {
+    .m-md-3 {
+        margin: 1rem !important;
+    }
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) ;
+}
+.text-center {
+    text-align: center !important;
+}
+.p-3 {
+    padding: 1rem !important;
+}
+.position-relative {
+    position: relative !important;
+}
+.overflow-hidden {
+    overflow: hidden !important;
+}
+

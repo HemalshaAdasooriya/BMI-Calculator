@@ -1,27 +1,57 @@
-@media (min-width: 768px) {
-    .p-md-5 {
-        padding: 3rem !important;
-    }
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(94, 14, 199);
 }
-@media (min-width: 768px) {
-    .m-md-3 {
-        margin: 1rem !important;
-    }
+.carousel-item{
+  height: 450px;
 }
-.bg-body-tertiary {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) ;
+.carousel-caption h1{
+  color: black;
 }
-.text-center {
-    text-align: center !important;
+.carousel-caption p{
+  color: rgb(173, 81, 6);
 }
-.p-3 {
-    padding: 1rem !important;
+.d-flex{
+  background-color: rgba(140, 0, 255, 0.459);
+  border-radius: 10px;
+  border: none;
+  padding: auto;
+  
+
 }
-.position-relative {
-    position: relative !important;
-}
-.overflow-hidden {
-    overflow: hidden !important;
+.cal h1{
+  
 }
 
+@media (min-width: 319px) and (max-width: 480px) {
+      .d-flex {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 40px;
+      }
+    }
+
+    @media (min-width: 481px) and (max-width: 1200px) {
+      .d-flex {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 50px;
+      }
+    }
+
+    @media (min-width: 1201px) and (max-width: 1600px) {
+      .d-flex {
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-top: 60px;
+      }
+    }
+
+    @media (min-width: 1601px) {
+      .d-flex {
+        margin-left: 115px;
+        margin-right: 115px;
+        margin-top: 70px;
+      }
+    }

@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  color: rgb(94, 14, 199);
 }
 .carousel-item{
   height: 450px;
@@ -10,48 +9,109 @@ body {
   color: black;
 }
 .carousel-caption p{
-  color: rgb(173, 81, 6);
+  color: rgb(137, 10, 241);
 }
-.d-flex{
+.d-grid{
   background-color: rgba(140, 0, 255, 0.459);
   border-radius: 10px;
   border: none;
-  padding: auto;
+  padding-bottom: 100px;
   
+}
+.d-grid h1{
+  margin-top: 15px;
+}
 
-}
-.cal h1{
-  
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 319px) and (max-width: 480px) {
-      .d-flex {
+      .d-grid {
         margin-left: 15px;
         margin-right: 15px;
         margin-top: 40px;
       }
+      .row{
+        gap: 30px;
+      }
+      .form-control{
+        width: 50%;
+      }
     }
 
     @media (min-width: 481px) and (max-width: 1200px) {
-      .d-flex {
+      .d-grid {
         margin-left: 5rem;
         margin-right: 5rem;
         margin-top: 50px;
       }
+      .row{
+        gap: 30px;
+      }
     }
 
     @media (min-width: 1201px) and (max-width: 1600px) {
-      .d-flex {
+      .d-grid {
         margin-left: 10rem;
         margin-right: 10rem;
-        margin-top: 60px;
+        margin-top: 40px;
+      }
+      .row{
+        gap: 100px;
       }
     }
 
     @media (min-width: 1601px) {
-      .d-flex {
+      .d-grid {
         margin-left: 115px;
         margin-right: 115px;
         margin-top: 70px;
+      }
+      .row{
+        gap: 250px;
       }
     }

@@ -40,35 +40,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 319px) and (max-width: 480px) {
       .d-grid {
         margin-left: 15px;
@@ -79,9 +50,10 @@ body {
         gap: 30px;
       }
       .form-control{
-        width: 50%;
+        width: 10px;
       }
     }
+
 
     @media (min-width: 481px) and (max-width: 1200px) {
       .d-grid {
@@ -92,7 +64,11 @@ body {
       .row{
         gap: 30px;
       }
+      .form-control{
+        width: 10px;
+      }
     }
+
 
     @media (min-width: 1201px) and (max-width: 1600px) {
       .d-grid {

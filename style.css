@@ -22,38 +22,6 @@
 .d-grid h1{
   margin-top: 15px;
 }
-#gender_box{
-  gap: 50px;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  margin-top: 30px;
-
-}
-#male_box{
-  border-radius: 10px;
-  padding: 20px;
-  width: 50%;
-  height: auto;
-  background-color: #000B58;
-}
-#female_box{
-  border-radius: 10px;
-  padding: 20px;
-  width: 100px;
-  height: 100px;
-  background-color: #000B58;
-}
-/* .card-body{
-  text-align: center;
-  background-color: #000B58;
-  border: none;
-} */
-#input_box{
-  margin-top: 200px;
-}
-
-
 
 
 

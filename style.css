@@ -10,7 +10,7 @@
   color: black;
 }
 .carousel-caption p{
-  color: rgb(137, 10, 241);
+  color: rgb(10, 241, 68);
 }
 .d-grid{
   background-color: rgba(255, 255, 255, 0.459);
@@ -24,15 +24,35 @@
 }
 
 #Submit_btn{
-  background-color: rgb(137, 10, 241);
+  background-color: rgb(25, 10, 241);
   color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  
+
+}
+.male_radio{
+  margin-top: 30px;
+}
+.Female_radio{
+  margin-top: 30px;
+}
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle; /* Helps with alignment with adjacent text */
+  transform: scale(1.5); /* Makes the radio button 50% larger than its default size */
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5);
+  margin-bottom: 15px;
 }
 
+label{
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 10px;
+}
 
 
 

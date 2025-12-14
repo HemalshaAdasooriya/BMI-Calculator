@@ -1,8 +1,13 @@
-var mybotton = document.getElementById("male");
+var mybotton1 = document.getElementById("male");
 var radiomale = document.getElementById("red");
+var mybotton2 = document.getElementById("female");
+var radiofemale = document.getElementById("green");
 
-mybotton.onclick = function() {
+mybotton1.onclick = function() {
     radiomale.checked = true;
+}
+mybotton2.onclick = function() {
+    radiofemale.checked = true;
 }
 
 

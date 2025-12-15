@@ -4,11 +4,6 @@
   background-color: #E5E5E5;
  
 }
-.carousel-caption p{
-  color: #3777A5;
-  font-size: 50x;
-  font-weight: bold;
-}
 .d-grid{
   background: #22956B;
   background: linear-gradient(90deg, rgba(34, 149, 107, 1) 0%, rgba(206, 206, 53, 1) 100%);
@@ -87,11 +82,10 @@ label{
   margin-top: -50px;
   position: absolute;
   z-index: -1;
-  top: 630px;
+  top: 680px;
   border-radius: 0 0 10px 10px;
-  
-  
 }
+
 .input-box{
   background: rgba(255, 255, 255, 0.2); 
   backdrop-filter: blur(10px);

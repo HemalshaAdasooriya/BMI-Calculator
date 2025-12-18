@@ -11,7 +11,6 @@
   border: none;
   padding-bottom: 50px;
   max-height: 620px;
-  margin-bottom: 100px;
   
 }
 .btn_custom{
@@ -79,7 +78,7 @@ label{
   background: linear-gradient(180deg, rgba(25, 46, 54, 1) 0%, rgba(53, 137, 169, 0.78) 100%);
   height: 600px;
   width: 100%;
-  margin-top: -50px;
+  margin-top: -60px;
   position: absolute;
   z-index: -1;
   top: 680px;
@@ -106,6 +105,28 @@ label{
   border: none;
   background-color: transparent;
 }
+
+.main{
+  margin-bottom: -50px;
+}
+
+.box{
+  background: rgba(197, 22, 22, 0.2); /* White with 20% opacity */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For compatibility */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle light border */
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  min-height: 80vh;
+  margin-bottom: 100px;
+}
+
+
 
 .footer{
   margin: 0;

@@ -134,7 +134,8 @@ label{
   font-weight: bold;
   text-align: center;
   margin-top: -20px;
-  background-color: yellow;
+  background: #2a9b30;
+  background: linear-gradient(0deg, rgba(42, 155, 48, 0.58) 0%, rgba(237, 221, 83, 1) 56%);
   margin-top: 100px;
   /* padding: 50px;
   border-radius: 20px;

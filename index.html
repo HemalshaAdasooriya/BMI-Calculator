@@ -191,13 +191,13 @@
             <div class="col">
                 <div class="input-box mb-3 mx-2">
                     <span class="input-text">Height |</span>
-                    <input type="text" class="box-control" placeholder="Meter" aria-label="Username">
+                    <input type="number" id="height" class="box-control" placeholder="Meter" aria-label="Username">
                 </div>
             </div>
             <div class="col">
                 <div class="input-box mb-3 mx-2">
                     <span class="input-text">Weight |</span>
-                    <input type="text" class="box-control" placeholder="KG" aria-label="Username">
+                    <input type="number" id="weight"  class="box-control" placeholder="KG" aria-label="Username">
                 </div>
             </div>
         </div>
@@ -206,13 +206,16 @@
             <div class="col-2">
                 <button onclick="calculateBMI()" type="button" id="Submit_btn">Calculate</button>
             </div>
-        </div>
-
-        <div id="result"></div>
+        </div>    
     </div>
-
     <!-- section 2 -->
     <div class="blackbox container-fluid"></div>
+
+
+    <!-- result -->
+    <div id="result" class="container"></div>
+
+
 
     <!-- section 3 -->
     <div class="main container mt-5 ">

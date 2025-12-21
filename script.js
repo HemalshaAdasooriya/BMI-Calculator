@@ -13,9 +13,21 @@ mybotton2.onclick = function() {
 
 
 
-function bmicalculator(weight, height) {
+// function bmicalculator(weight, height) {
+//     var bmi = weight / (height * height);
+//     return bmi;
+// }
+
+function calculateBMI() {
+    var weight = document.getElementById("weight").value;
+    var height = document.getElementById("height").value;
+    const resultDiv = document.getElementById('result');
     var bmi = weight / (height * height);
-    return bmi;
+    const cal = bmi.toFixed(2);
+
+    
+ resultDiv.innerHTML = `
+        <p>Your BMI: <strong>${cal}</strong></p>
+        
+    `;
 }
-
-

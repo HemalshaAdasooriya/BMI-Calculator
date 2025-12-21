@@ -11,23 +11,26 @@ mybotton2.onclick = function() {
 }
 
 
-
-
-// function bmicalculator(weight, height) {
-//     var bmi = weight / (height * height);
-//     return bmi;
-// }
-
 function calculateBMI() {
     var weight = document.getElementById("weight").value;
     var height = document.getElementById("height").value;
     const resultDiv = document.getElementById('result');
     var bmi = weight / (height * height);
     const cal = bmi.toFixed(2);
-
-    
+ 
  resultDiv.innerHTML = `
         <p>Your BMI: <strong>${cal}</strong></p>
         
     `;
 }
+
+
+// Select the button element
+const button = document.getElementById('Submit_btn');
+const divresult = document.getElementById('result');
+
+button.addEventListener('click', () => {
+    // Add the 'highlight' class to the div element
+    divresult.classList.add('highlight');
+  });
+

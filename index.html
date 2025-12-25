@@ -71,6 +71,26 @@
             filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
         }
 
+        body {
+        margin: 0;
+        padding: 0;
+        background-color: #E5E5E5;
+        transition: background-color 0.5s;
+        }
+
+        .dark-theme {
+        background-color: black;
+        color: white;
+        }
+
+        .dark-theme:hover {
+        background-color: #333;
+        }
+
+        .dark-theme:focus {
+        outline: none;
+        }
+
         /* Optional: reduce overlay padding on very small screens */
         @media (max-width: 400px) {
             .hero-overlay {
@@ -80,10 +100,11 @@
     </style>
 </head>
 <body class="body">
-    <button onclick="toggleIcon(this)" id="dark-mode-toggle" title="Toggle dark mode">
+    <!-- <button onclick="toggleIcon(this)" id="dark-mode-toggle" title="Toggle dark mode">
         <span class="icon sun-icon" id="sun">☀️</span>
         <span class="icon moon-icon" id="moon">🌙</span>
-    </button>
+    </button> -->
+    <button id="themeButton">Switch to Dark Theme</button>
     <!-- hero section -->
     <div class="hero">
     <!-- Overlay (text inside the image box) -->

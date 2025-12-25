@@ -1,3 +1,26 @@
+#dark-mode-toggle {
+    position: fixed; /* Keeps the button relative to the browser window */
+    bottom: 20px;    /* Positions it 20px from the bottom */
+    right: 20px;     /* Positions it 20px from the right */
+    z-index: 100;    /* Ensures it stays above other content */
+    /* Add other styling for appearance (padding, border-radius, background, etc.) */
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Add smooth transition for hover effects */
+    transition: background-color 0.3s ease;
+}
+
+#dark-mode-toggle:hover {
+    background-color: #555;
+}
+#sun {
+    display: none; /* Initially hide the sun icon */
+}
+
 .body{
   margin: 0;
   padding: 0;

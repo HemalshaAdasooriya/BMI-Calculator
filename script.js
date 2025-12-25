@@ -34,3 +34,25 @@ button.addEventListener('click', () => {
     divresult.classList.add('highlight');
   });
 
+// Get the button element
+const toggleButton = document.getElementById('dark-mode-toggle');
+
+// Add a click event listener
+toggleButton.addEventListener('click', () => {
+    // Toggle the 'dark-mode' class on the body element
+    document.body.classList.toggle('dark-mode');
+});
+
+
+function toggleIcon(buttonElement) {
+    var sun = buttonElement.querySelector('#sun');
+    var moon = buttonElement.querySelector('#moon');
+
+    if (sun.style.display === 'inline') {
+        sun.style.display = 'none';
+        moon.style.display = 'inline';
+    } else {
+        sun.style.display = 'inline';
+        moon.style.display = 'none';
+    }
+}

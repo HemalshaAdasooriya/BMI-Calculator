@@ -138,12 +138,12 @@ label{
 }
 
 .box{
-  background: rgba(197, 22, 22, 0.2); /* White with 20% opacity */
+  background: rgba(197, 22, 22, 0.2); 
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* For compatibility */
-  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle light border */
+  -webkit-backdrop-filter: blur(10px); 
+  border: none; 
   border-radius: 50px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   color: #fff;
   font-size: 1.1rem;
   cursor: pointer;
@@ -161,10 +161,8 @@ label{
   background: #2a9b30;
   background: linear-gradient(0deg, rgba(42, 155, 48, 0.58) 0%, rgba(237, 221, 83, 1) 56%);
   margin-top: 100px;
-  /* padding: 50px;
-  border-radius: 20px;
-  border: none; */
 }
+
 .highlight{
   padding: 50px;
   border-radius: 20px;

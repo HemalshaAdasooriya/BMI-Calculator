@@ -44,31 +44,12 @@ toggleButton.addEventListener('click', () => {
 });
 
 
-// function toggleIcon(buttonElement) {
-//     var sun = buttonElement.querySelector('#sun');
-//     var moon = buttonElement.querySelector('#moon');
+function darkmode() {
+  var x = document.getElementById("dark-mode-toggle");
+  if (x.innerHTML === "🌙") {
+    x.innerHTML = "☀️";
+  } else {
+    x.innerHTML = "🌙";
+  }
+}
 
-//     if (sun.style.display === 'inline') {
-//         sun.style.display = 'none';
-//         moon.style.display = 'inline';
-//     } else {
-//         sun.style.display = 'inline';
-//         moon.style.display = 'none';
-//     }
-    
-// }
-
-document.addEventListener('DOMContentLoaded', function() {
-  var themeButton = document.getElementById('themeButton');
-  var body = document.body;
-
-  themeButton.addEventListener('click', function() {
-    if (body.classList.contains('dark-theme')) {
-      body.classList.remove('dark-theme');
-      themeButton.textContent = 'Switch to Dark Theme';
-    } else {
-      body.classList.add('dark-theme');
-      themeButton.textContent = 'Switch to Light Theme';
-    }
-  });
-});
